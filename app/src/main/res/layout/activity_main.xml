@@ -26,9 +26,11 @@
         android:id="@+id/textInputLayoutName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
         android:hint="Ingrese su nombre aqui"
+        app:boxBackgroundMode="filled"
+        app:boxStrokeWidth="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,8 +44,7 @@
             android:id="@+id/editTextName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/shape_inputtext"
-            />
+            android:background="@drawable/shape_inputtext" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -52,9 +53,11 @@
         android:id="@+id/textInputLayoutSurName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
         android:hint="Ingrese su apellido aqui"
+        app:boxBackgroundMode="filled"
+        app:boxStrokeWidth="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,7 +68,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/editTextSurName"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_inputtext" />
 
 
     </com.google.android.material.textfield.TextInputLayout>
