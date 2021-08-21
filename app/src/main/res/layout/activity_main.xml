@@ -21,7 +21,6 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.58" />
 
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayoutName"
         android:layout_width="0dp"
@@ -36,9 +35,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/guideLineButtonHorizontal"
         app:layout_constraintVertical_bias="0.02"
-        tools:ignore="MissingConstraints"
-
-        >
+        tools:ignore="MissingConstraints">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/editTextName"
@@ -47,7 +44,6 @@
             android:background="@drawable/shape_inputtext" />
 
     </com.google.android.material.textfield.TextInputLayout>
-
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayoutSurName"
@@ -71,8 +67,17 @@
             android:layout_height="wrap_content"
             android:background="@drawable/shape_inputtext" />
 
-
     </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INGRESAR"
+        style="@style/Widget.MaterialComponents.Button"
+        tools:ignore="MissingConstraints"
+       
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
