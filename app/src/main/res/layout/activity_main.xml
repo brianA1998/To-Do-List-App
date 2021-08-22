@@ -71,23 +71,22 @@
 
     <Button
         android:id="@+id/btnIngresar"
+        style="@style/Widget.MaterialComponents.Button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="INGRESAR"
-        style="@style/Widget.MaterialComponents.Button"
-        tools:ignore="MissingConstraints"
-        android:layout_marginEnd="18dp"
         android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/shape_button"
+        android:text="INGRESAR"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="#A9C69F"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayoutSurName"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.5"
-        android:textSize="18sp"
-        app:backgroundTint="#A9C69F"
-        android:background="@drawable/shape_button"
-        android:textColor="@color/black"
-        />
+        tools:ignore="MissingConstraints" />
 
 
     <ImageView
@@ -96,14 +95,13 @@
         android:layout_height="250dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
+        android:adjustViewBounds="true"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/libretasesion"
-        android:adjustViewBounds="true"
-        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.10"
-        />
+        app:srcCompat="@drawable/libretasesion"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
